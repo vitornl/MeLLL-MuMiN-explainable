@@ -1,0 +1,4 @@
+[core]
+    remote = azstorage
+['remote "azstorage"']
+    url = azure://mumin-explainable/
