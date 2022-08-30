@@ -1,0 +1,30 @@
+# core requirements
+numpy
+networkx
+tqdm
+torch
+torch_geometric
+dgl
+torch_sparse
+torch_scatter
+torchmetrics
+
+# mumin
+mumin
+
+# explainable ai
+graphlime
+
+# bertweet
+emoji
+nltk
+
+# jupyter requirements
+jupyter
+ipywidgets
+ipykernel
+widgetsnbextension
+dotenv
+
+#visual
+matplotlib
