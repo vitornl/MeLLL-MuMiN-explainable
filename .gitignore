@@ -1,5 +1,8 @@
+OpenXAI/
+data/models
+
 .env
-ignore
+ignore*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

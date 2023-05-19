@@ -5,19 +5,17 @@ tokenizer = TweetTokenizer()
 
 def normalizeToken(token):
     lowercased_token = token.lower()
+    
     if token.startswith("@"):
         return "@USER"
     elif lowercased_token.startswith("http") or lowercased_token.startswith("www"):
         return "HTTPURL"
-    elif len(token) == 1:
-        return demojize(token)
-    else:
-        if token == "’":
-            return "'"
-        elif token == "…":
-            return "..."
-        else:
-            return token
+    elif token == "’":
+        return "'"
+    elif token == "…":
+        return "..."
+    
+    return demojize(token)
 
 def normalizeTweet(tweet):
     tokens = tokenizer.tokenize(tweet.replace("’", "'").replace("…", "..."))

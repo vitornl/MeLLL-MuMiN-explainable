@@ -1,4 +1,5 @@
 [core]
     remote = azstorage
 ['remote "azstorage"']
-    url = azure://mumin-explainable/
+    url = azure://mumin-explainable/dvc/
+    account_name = vitorlourenco@id.uff.br
