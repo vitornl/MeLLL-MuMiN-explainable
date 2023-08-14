@@ -1,0 +1,46 @@
+###
+## JUPYTER EXECUTION
+###
+jupyter
+ipywidgets
+ipykernel
+widgetsnbextension
+python-dotenv
+
+###
+## VISUALISATION
+###
+matplotlib
+
+###
+## CORE REQUIREMENTS
+###
+numpy
+networkx
+tqdm
+torch --index-url https://download.pytorch.org/whl/cu118
+torch_geometric
+torchmetrics
+dgl
+# torch_sparse
+# torch_scatter
+###
+## DATASET
+###
+mumin
+
+###
+## EXPLAINABLE AI
+###
+graphlime
+
+###
+## BERTWEET
+###
+emoji
+nltk
+
+###
+## MLOPS
+###
+mlflow
