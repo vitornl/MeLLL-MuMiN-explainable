@@ -1,5 +1,6 @@
 OpenXAI/
 data/models/
+data/results/
 
 
 .env
